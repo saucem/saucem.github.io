@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Todocopia · Producto</title>
+        <!-- Bootstrap -->
+        <link rel="shortcut icon" href="images/tdc-circular-color.png" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="css/lp.css" type="text/css">
+        <!-- Embedded styles -->
+        <style type="text/css">
+            body{background-image: url("images/dummy.jpg");}
+        </style>
+    </head>
+    <body>
+    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    	<script src="js/jquery-1.11.2.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+    	<script src="js/bootstrap.js"></script>
+        <!-- Page content starting point -->
+        <div class="container">
+            <div class="row text-right">
+                <div class="col-xs-2 col-sm-1"><img src="images/ribbon_tdc_logo_highres.png" alt="Logo" class="brand-logo-md"></div>
+                <div class="col-xs-4 col-sm-4 col-sm-offset-6 hidden-xs"><a href="index.html" class="lp-menu-item">Visita nuestro sitio</a></div>
+                <div class="col-xs-10 col-sm-1"><a href="javascript:history.back(1)" class="lp-menu-item">Volver</a></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-7 col-xs-12 bottom-10 info-container">
+                        <h1 class="lp-info-title">Producto</h1>
+                        <h2 class="lp-info-subtitle">Descripcion breve del producto o eslogan</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate obcaecati porro eum repudiandae possimus repellat cumque asperiores magni architecto esse sed minima dolorum deserunt, quo animi quod omnis, earum! Veniam.
+                        </p>
+                    </div>
+                    <div class="col-sm-5 col-md-4 col-sm-offset-1 col-md-offset-1 col-xs-12 form-container">
+                        <form id="contacto" name="contacto" action="http://localhost/enviar.php" method="POST">
+                          <div class="form-group">
+                            <label for="nombre" class="first">Nombre *</label>
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Su nombre y apellido" required="required">
+                          </div>
+                          <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" class="form-control" name="empresa" id="empresa" placeholder="El nombre de su empresa o comercio">
+                          </div>
+                          <div class="form-group">
+                            <label for="mail">E-Mail *</label>
+                            <input type="text" class="form-control" name="mail" id="mail" aria-describedby="emailHelp" placeholder="Su correo electr&oacute;nico habitual" required="required">
+                          </div>
+                          <div class="form-group">
+                            <label for="mensaje">Consulta *</label>
+                            <textarea class="form-control" name="mensaje" id="mensaje" placeholder="&iquest;C&oacute;mo podemos ayudarlo hoy&#63;" rows="3" required="required"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <input type="submit" class="form-control btn btn-success" name="submit" value="Enviar" ">
+                          </div>
+                        </form>
+                        <div class="row text-center">
+                            <p class="col-md-12" id="required-fields"><em>Los campos marcados con * deben estar completos</em></p>
+                        </div>
+                        <div class="row text-right">
+                            <p class="col-md-12 first" id="privacy-info"><a href="documents/pdf/privacy_politic_2017.pdf" class="privacy-link">Pol&iacute;tica de Privacidad de los datos</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Page content ending point -->    
+    </body>
+</html>

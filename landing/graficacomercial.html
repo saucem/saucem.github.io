@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Todocopia · Gr&aacute;fica Comercial</title>
+        <!-- Bootstrap -->
+        <link rel="shortcut icon" href="../images/tdc-circular-color.png" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../css/main.css" type="text/css">
+        <link rel="stylesheet" href="../css/lp.css" type="text/css">
+        <!-- Embedded styles -->
+        <script type="text/javascript">
+            (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+        </script>
+    </head>
+    <body>
+    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    	<script src="js/jquery-1.11.2.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+    	<script src="js/bootstrap.js"></script>
+        <!-- Page content starting point -->
+        <nav class="navbar navbar-inverse navbar-static-top navbar-slim straight-corners" role="navigation">
+            <div class="navbar-header col-sm-10">
+                
+                <a class="navbar-brand col-xs-6 col-md-4 hidden-xs inactive" href=""><img src="../images/ribbon_tdc_logo_highres.png" id="brand_logo" alt="Logo Todocopia"/>&nbsp;TODOCOPIA</a>
+                
+                <a class="navbar-brand col-xs-6 visible-xs inactive" href=""><img src="../images/ribbon_tdc_logo_highres.png" id="brand_logo_xs" alt="Logo Todocopia"/></a>
+                
+                <a class="btn btn-dark-gray visible-xs col-xs-6 top-7" href="tel:+5401142574652">Llamar ahora!</a>
+
+                <span class="col navbar-text hidden-xs"><span class="glyphicon glyphicon-time"></span>&nbsp;Lunes a Viernes de 08:40 a 19:00, S&aacute;bados de 09:10 a 13:00&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-envelope"></span>&nbsp;info@todocopiasrl.com.ar</span>
+
+            </div>
+            <div class="navbar-right top-5 hidden-xs">
+                <h4 class="pseudo-menu-item"><span class="prefix">+54&nbsp;011&nbsp;</span>4257-4652</h4>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 top-20 hidden-xs"></div>
+                <div class="clearfix"></div>
+                <div class="col-xs-12 col-md-6 lp-info-product">
+                    <div class="row">
+                        <img src="../images/paper-block-cropped.png" alt="grafica" class="img-responsive col-xs-12 no-gutter rounded-top-5">
+                        <!--<img src="../images/frame-view.jpg" alt="Despiece" class="img-responsive col-xs-6 no-gutter">-->
+
+                    </div>
+                    <div class="top-10 text-center">
+                        <h1>Gr&aacute;fica Comercial</h1>
+                        <h2>Econ&oacute;mica | Profesional | Atractiva</h2>
+                        <h3>Tu negocio, organizado</h3>
+                        <ul class="text-left">
+                            <li type="disc">Ponele personalidad a tu negocio con papeler&iacute;a a medida</li>
+                            <li type="disc">Ofrecemos opciones econ&oacute;micas para dar a conocer tu actividad</li>
+                            <li type="disc">Emblocado, abrochado y troquelado de talonarios</li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="text-center top-20 bottom-20">
+                        <p class="small-text">
+                            *Consult&aacute; las ofertas en folletos color <a href="promofolletos.html" class="btn btn-success btn-outline btn-sm">Quiero ver las ofertas!</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-5 col-md-offset-1">
+                    <div class="row top-15 visible-xs"></div>
+                    <div class="col-xs-12 form-container-light text-left">
+                        <div class="row top-20">
+                            <div class="col-xs-12">
+                                <h2 class="text-center top-2">Formulario de Consulta</h2>
+                                <p class="text-justify">
+                                    Complet&aacute; el formulario y nos pondremos en contacto de inmediato para cotizarte el trabajo que necesit&aacute;s
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="thin-line-dark"></div>
+
+                        <form id="contacto" name="contacto" action="http://localhost/enviarconsultagrafica.php" method="POST" enctype="multipart/form_data" class="top-10">
+                            <div class="form-group col-md-8">
+                                <label for="nombre" class="">Nombre*</label>
+                                <div class="">
+                                <!--<div class="input-group input-group-sm">-->
+                                    <!--<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>-->
+                                    <input type="text" class="form-control input-sm" name="nombre" id="nombre" placeholder="tu nombre y apellido" required="">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <div class="">
+                                    <label for="cliente">Tipo de cliente</label>
+                                    <select id="cliente" name="cliente" class="form-control input-sm">
+                                        <option value="particular">Particular</option>
+                                        <option value="empresa">Empresa</option>
+                                        <option value="educativa">Instituci&oacute;n educativa</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12">
+                                <label for="empresa" class="">Empresa</label>
+                                <div class="">
+                                <!--<div class="input-group input-group-sm">-->
+                                    <!--<span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>-->
+                                    <input type="text" class="form-control input-sm" name="empresa" id="empresa" placeholder="el nombre de tu empresa o comercio">
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12">
+                                <label for="telefono" class="">Tel&eacute;fono*</label>
+                                <div class="">
+                                <!--<div class=" input-group input-group-sm">-->
+                                    <!--<span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>-->
+                                    <input type="tel" class="form-control input-sm" name="telefono" id="telefono" placeholder="un n&uacute;mero de tel&eacute;fono fijo o m&oacute;vil donde podamos llamarte" required="">
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12">
+                                <label for="correo" class="">Correo</label>
+                                <div class="">
+                                <!--<div class="input-group input-group-sm">-->
+                                    <!--<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>-->
+                                    <input type="email" class="form-control input-sm" name="correo" id="correo" aria-describedby="emailHelp" placeholder="un correo electr&oacute;nico v&aacute;lido para responder tu pedido">
+                                </div>
+                            </div>
+
+                            <div class="form-group col-xs-12 col-md-6">
+                                <div class="">
+                                    <label for="servicio">Tipo de trabajo</label>
+                                    <select id="servicio" name="servicio" class="form-control input-sm">
+                                        <option value="folletos">Folletos</option>
+                                        <option value="talonarios">Talonarios</option>
+                                        <option value="entradas">Entradas p/eventos</option>
+                                        <option value="hojas-membretadas">Hojas membretadas</option>
+                                        <option value="sobres">Sobres impresos</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group col-xs-12 col-md-6">
+                                <div class="">
+                                    <label for="cantidad">Cantidad*</label>
+                                    <input type="number" class="form-control input-sm" name="cantidad" id="cantidad" placeholder="cu&aacute;ntas?" step="1" min="1" required="">
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12 col-md-7">
+                                <label for="disposicion" class="text-muted">Disposici&oacute;n</label>
+                                <div class="">
+                                <!--<div class="input-group input-group-sm">-->
+                                    <!--<span class="input-group-addon"><span class="glyphicon glyphicon-print"></span></span>-->
+                                    <select id="disposicion" name="disposicion" class="form-control input-sm" disabled="">
+                                        <option value="unavailable">- No disponible -</option>
+                                        <option value="1_pagina_x_hoja_simple">1 p&aacute;gina por hoja (simple)</option>
+                                        <option value="2_pagina_x_hoja_simple">2 p&aacute;ginas por hoja (simple)</option>
+                                        <option value="2_pagina_x_hoja_doble">2 p&aacute;ginas por hoja (duplex)</option>
+                                        <option value="4_pagina_x_hoja_doble">4 p&aacute;ginas por hoja (duplex)</option>
+                                        <option value="otra_disposicion">Otra disposici&oacute;n</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12 col-md-5">
+                                <div class="">
+                                    <label for="acabado" class="">Terminaci&oacute;n</label>
+                                    <select id="acabado" name="acabado" class="form-control input-sm">
+                                        <option value="ninguno">Ninguna</option>
+                                        <option value="laminado-sfaz">Emblocado</option>
+                                        <option value="laminado-dfaz">Abrochado</option>
+                                        <option value="laqueado-sfaz">Troquelado</option>
+                                        <option value="laqueado-sfaz">Numerado</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12">
+                                <label for="comentario" class="">Comentarios</label>
+                                <div class="">
+                                <!--<div class="input-group input-group-sm">-->
+                                    <!--<span class="input-group-addon"><span class="glyphicon glyphicon-comment"></span></span>-->
+                                    <textarea class="form-control input-sm" name="comentario" id="comentario" placeholder="contanos los detalles del trabajo que necesitas presentar" rows="2"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12 top-15">
+                                <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
+                                    <input type="submit" class="form-control btn btn-danger" name="submit" value="Cu&aacute;nto vale?">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <p class="col-md-12 first" id=""><a href="documents/pdf/privacy_politic_2017.pdf" class="privacy-link-dark" title="Lee nuestra pol&iacute;tica de privacidad"><span class="glyphicon glyphicon-eye-close">&nbsp;</span>No compartiremos tus datos. Nunca</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page content ending point -->    
+    </body>
+</html>
