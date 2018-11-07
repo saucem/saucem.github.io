@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+@import 'https://fonts.googleapis.com/css?family=Euphoria+Script';
+@font-face{font-family:"PosterLogoni"; src:url(../fonts/Poster%20Logoni.ttf);}
+
+.logo{
+	font-family:"PosterLogoni";
+	font-size:10vmin;
+}
+.brand_logo{
+	width:15vmin;
+	height:auto;
+}
+.slogan{
+	font-family:"Euphoria Script", cursive;
+}

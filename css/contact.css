@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{font-family:"Yanone_Light"; src:url(../fonts/YanoneKaffeesatz-Light.ttf);}
+@font-face{font-family:"RalewayNormal"; src:url(../fonts/Raleway-Regular.ttf);}
+
+
+.info-panel>h4{
+	font-family: "RalewayNormal";
+	color: rgb(60,150,250);
+}
+
+.info-panel>p{
+	font-family: "RalewayNormal";
+	font-weight: bold;
+}
+
+.xs-tel{
+	font-size: 3em;
+}
+
+.bigger-text{
+	font-size: 2em;
+}

@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{font-family:"Yanone_Light"; src:url(../fonts/YanoneKaffeesatz-Light.ttf);}
+@font-face{font-family:"RalewayNormal"; src:url(../fonts/Raleway-Regular.ttf);}
+@font-face{font-family:"LemonNormal"; src:url(../fonts/LemonMilk.otf);}
+@font-face{font-family:"LemonLight"; src:url(../fonts/LemonMilklight.otf);}
+
+body{
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	background-color: rgba(190,220,255,0.5);
+	/*background-color: rgba(64,64,64,1);*/
+	font-family: "RalewayNormal";
+	color: black;
+}
+
+h1{
+	font-family: "LemonNormal", sans-serif;
+	font-size:3em;
+}
+
+h2{
+	font-family: "LemonLight", sans-serif;
+	font-size: 1.5em;
+	margin-top: -.5em;
+}
+
+h3.price{
+	font-family: "LemonNormal", sans-serif;
+	font-size:2.5em;
+	color: red;
+}
+
+.brand-logo-md{
+	height: 15vh;
+	margin-top: -1vh;
+}
+
+.navbar-brand{
+	/*font-weight: lighter;*/
+}
+
+.lp-menu-item, .lp-menu-item-dark, .lp-navigation{
+	padding: 10px;
+	margin-top: 5px;	
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: inline-block;
+	border:solid 2px transparent;
+	border-radius: 5px;
+}
+
+.lp-menu-item-dark{
+	color:#444;
+}
+
+.lp-menu-item:hover{
+	color: white;
+	text-decoration: none;
+	border-color: white;
+}
+
+.lp-menu-item-dark:hover{
+	color: #444;
+	text-decoration: none;
+	border-color: #444;
+}
+
+.info-container{
+	border-radius: 5px;
+	background-color: rgba(2,2,2,.5);
+	line-height: 1.5em;
+}
+
+.info-container-light{
+	border-radius: 5px;
+	background-color: rgba(200,200,200,.5);
+	line-height: 1.5em;
+}
+.lp-info-title{
+	font-family: "LemonNormal";
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+.lp-info-subtitle{
+	font-family: "LemonLight";
+	/*margin-top: -.5em;*/
+}
+
+.product-container{
+	height: 85vh;
+	background-color: white;
+	border-radius: 5px;
+	border:none;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.5);
+	background-color: #1b1b1b;
+	background-image: -moz-linear-gradient(top, #083296, #3c96fa);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#083296), to(#3c96fa));
+	background-image: -webkit-linear-gradient(top, #083296, #3c96fa);
+	background-image: -o-linear-gradient(top, #083296, #3c96fa);
+	background-image: linear-gradient(to bottom, #083296, #3c96fa);
+	background-repeat: repeat-x;
+	border-color: #252525;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff083296', endColorstr='#ff3c96fa', GradientType=0);
+
+}
+
+
+
+
+label{
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+input, textarea{
+	color:black;
+	border:2px solid white;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,.85);
+	padding-left: 5px;
+	resize: none;
+	font-family: "Yanone_Light";
+	font-size: 1.2em !important;
+	width: 100%;
+}
+
+input:focus, textarea:focus{
+	box-shadow: 4px 4px 15px rgba(0,0,0,.75);
+}
+
+input[type="submit"]{
+	font-family: "RalewayNormal";
+}
+
+.wide{
+	width: 100%;
+}
+
+.first{
+	padding-top: 10px;
+}
+
+.msg-title::first-line{
+	font-size: 1.35em;
+}
+
+.msg-subtitle{
+	font-family: "Yanone_Light";
+	color: #444;
+}
+
+.success-message{
+	padding-top: 10vh;
+}
+
+.form-container{
+	background-color: rgba(2,2,2,0.5);
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+.form-container-light{
+	background-color: rgba(180,180,180,0.5);
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+.privacy-link{
+	color: white;
+}
+
+.privacy-link-dark{
+	color: #888;
+}
+
+.privacy-link:hover{
+	text-decoration: none;
+	color: cyan;
+	text-shadow: 0 0 1px black;
+}
+
+.privacy-link-dark:hover{
+	text-decoration: none;
+	color: black;
+	text-shadow: 0 0 1px black;
+}
+
+#privacy-info{
+	font-family: "Yanone_Light";
+	font-size: 1em;
+}
+
+#required-fields{
+	font-family: "Yanone_Light";
+	font-size: 1em;
+}
+
+.info-container, .form-container{
+	border:2px solid white;
+	/*overflow-wrap: break-word;*/
+}
+
+.info-big{
+	font-size: 1.5em;
+}
+
+.info-small{
+	font-size: 0.85em;
+	/*line-height: 2em;*/
+}
+
+.btn-wapp{
+	background-color: #128C7E;
+	color: white;
+}
+
+.btn-wapp:hover{
+	background-color: #075E54;
+	color: white;
+}
+
+.red{
+	background-color: red;
+}
+
+.lp-img-maxwidth{
+	width: 100;
+	height: auto;
+}
+
+.lp-info-product{
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 40px 0px rgba(0,0,0,.75);
+}
+
+.lp-info-img{
+	border-radius: 5px 5px 0px 0px;
+	height:40vh;
+	background-size: cover;
+	background-position: center-top;
+	background-repeat: no-repeat;
+}
+
+.lp-info-img-vertical{
+	border-radius: 5px 0px 0px 5px;
+	height:80vh;
+	background-size: cover;
+	background-position: center-top;
+	background-repeat: no-repeat;
+}
+
+#promoid{background-image: url(../images/dummy.jpg); background-position: center center;}
+#promoflyers{background-image: url(../images/color-flyers.jpg);}
+#promocv{background-image: url(../images/job-interview-edited.png); background-position: center bottom;}
+#lpsp3710sf{background-image: url(../images/models/sp3710sf.jpg); background-position: center bottom;}
+#lpmp501sf{background-image: url(../images/models/shadowed_mp501sp.png); background-position: left bottom;}
+
+
+
+@media only screen and (max-width: 480px) {
+	.card-container{column-count: 1;}
+	body{
+		background-size: cover;
+		background-position: center center;
+	}
+	.lp-info-img{border-radius: 0px;}
+	.lp-info-img-vertical{border-radius: 0px;background-size: contain;}
+	.lp-info-product{box-shadow: none;}
+	h1{font-size: 2.2em;}
+	h2{font-size: 1.2em;}
+	h3.price{font-size: 2.5em;}
+	.form-container, .form-container-light{margin-bottom: 15px;}
+
+}
+
+@media only screen and (max-width: 992px) {
+	.lp-info-img-vertical{border-radius: 0px;background-size: contain;}
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+	.lp-info-product ul{font-size: 0.8em;}
+	p{font-size: 0.9em;}
+	h1{font-size: 2em;}
+	.large-text{font-size: 2em !important;}
+
+}

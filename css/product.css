@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+.floating-card-header{
+	background-size: contain;
+}
+.floating-card-title{
+	background-color: rgb(190,220,255);
+	border-radius: 5px;
+}
+.floating-card-title h3{
+	padding: 5px 0px;
+	font-size: medium; 
+}
+
+.color-tag{
+	height: 1.2em;
+	width: auto;
+}
+
+#sop{
+	/*background-image: url(../images/sop-screen.png), url(../images/smart-operation-panel-402.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+    /*color: white;*/
+}
+
+#sopfeatures{
+	line-height: 1.3em;
+}
+
+#product-cards .card-item-0{background-image: url(../images/models/sp3710sf.jpg);}
+#product-cards .card-item-1{background-image: url(../images/models/sp377sfnwx.jpg);}
+#product-cards .card-item-2{background-image: url(../images/models/mp305+spf.png);}
+#product-cards .card-item-3{background-image: url(../images/models/mp402spf.jpg);}
+#product-cards .card-item-4{background-image: url(../images/models/mp501sp.png);}
+#product-cards .card-item-5{background-image: url(../images/models/mp501sp.png);}
+#product-cards .card-item-6{background-image: url(../images/models/mp2555sp.jpg);}
+#product-cards .card-item-7{background-image: url(../images/models/mp2555sp.jpg);}
+#product-cards .card-item-8{background-image: url(../images/models/mp2555sp.jpg);}
+#product-cards .card-item-9{background-image: url(../images/models/mpc307spf.png);}
+#product-cards .card-item-10{background-image: url(../images/models/mpc2004sp.jpg);}
+#product-cards .card-item-11{background-image: url(../images/models/mpc2004sp.jpg);}
+#product-cards .card-item-12{background-image: url(../images/models/mp2014.jpg);}
+#product-cards .card-item-13{background-image: url(../images/models/mp2014ad.jpg);}
+#product-cards .card-item-14{background-image: url(../images/models/sp377dnwx.jpg);}
+#product-cards .card-item-15{background-image: url(../images/models/sp5300dn.jpg);}
+#product-cards .card-item-16{background-image: url(../images/models/sp5300dn-left.jpg);}
+#product-cards .card-item-17{background-image: url(../images/models/sp8400dn.png);}
+#product-cards .card-item-18{background-image: url(../images/models/dx2430.jpg);}
+#product-cards .card-item-19{background-image: url(../images/guillotina-dasa.jpg);}
+#product-cards .card-item-20{background-image: url(../images/espira-dasa-pro.jpg);}
+#product-cards .card-item-21{background-image: url(../images/plastificadora-dasa.jpg);}
+#product-cards .card-item-22{background-image: url(../images/models/cropped/sp3710dn_cropped.png);}
+#product-cards .card-item-23{background-image: url(../images/);}
+#product-cards .card-item-24{background-image: url(../images/);}
+#product-cards .card-item-25{background-image: url(../images/);}
+#product-cards .card-item-26{background-image: url(../images/);}
+#product-cards .card-item-27{background-image: url(../images/);}
